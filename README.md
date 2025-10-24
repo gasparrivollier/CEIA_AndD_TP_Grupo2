@@ -38,8 +38,15 @@ eficiente de archivos Parquet.
 
 Instalar las dependencias necesarias para ejecutar el análisis:
 
+Python>3.10
+
+**pip:**
 ``` bash
-pip install pandas pyarrow matplotlib seaborn jupyter
+pip install -r requirements.txt
+```
+**uv:**
+``` bash
+uv sync
 ```
 
 ------------------------------------------------------------------------
