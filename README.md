@@ -70,7 +70,6 @@ del año 2024, con columnas como:
 
 ------------------------------------------------------------------------
 
-## 🧠 Autor
+## Autores
 
-**Gaspar Rivollier**\
-Proyecto académico de análisis de datos - 2025
+
