@@ -45,6 +45,17 @@ Python>3.10
 pip install -r requirements.txt
 ```
 **uv:**
+
+- Crear el venv
+``` bash
+uv venv --python 3.11
+```
+- Activar el venv
+``` bash
+.venv\Scripts\activate
+```
+- Instalar dependencias 
+
 ``` bash
 uv sync
 ```
