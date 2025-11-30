@@ -10,17 +10,22 @@ principal se realiza en **Python** mediante Jupyter Notebooks.
 
 ## 📁 Estructura del repositorio
 
-    ├── bin/                          # Scripts o utilidades ejecutables (si aplica)
     │
-    ├── dataset/                      # Datos fuente en formato .parquet
-    │   ├── yellow_tripdata_2024-01.parquet
-    │   ├── yellow_tripdata_2024-02.parquet
-    │   ├── ...
-    │   └── yellow_tripdata_2024-12.parquet
+    ├── attachments/                  # Archivos adjuntos y recursos adicionales
     │
-    ├── notebooks/
-    │   └── AndD_tp.ipynb             # Notebook principal con el análisis y visualización
+    ├── dataset/                      # Datos fuente
+    │   ├── 01-raw/                   # Datos en formato bruto (.parquet)
+    │   ├── 02-preprocessed/          # Datos preprocesados
+    │   ├── 03-eda/                   # Datos para análisis exploratorio
+    │   ├── 04-null-processed/        # Datos después del procesamiento de nulos
+    │   └── taxi_zone_lookup.csv      # Lookup de zonas de taxi
     │
+    ├── notebooks/                    # Jupyter Notebooks con análisis
+    │   ├── AndD_tp_preprocessing.ipynb    # Notebook de preprocesamiento
+    │   └── AndD_tp_null_processing.ipynb # Notebook de procesamiento de nulos
+    │
+    ├── pyproject.toml                # Configuración del proyecto
+    ├── requirements.txt              # Dependencias del proyecto
     └── README.md                     # Descripción general del proyecto
 
 ------------------------------------------------------------------------
