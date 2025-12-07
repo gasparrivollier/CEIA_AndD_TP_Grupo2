@@ -4,7 +4,7 @@
 
 ### 🎯 Objetivo Principal
 
-Desarrollar un modelo de Machine Learning para recomendar la **mejor zona de recogida (Taxi Zone)** en Manhattan - NYC para cada **franja horaria** y **día de la semana**, con el fin de **maximizar la ganancia esperada** del taxista.
+Desarrollar un modelo de Machine Learning para recomendar la **mejor zona de recogida (Taxi Zone)** en Manhattan - NYC para cada **franja horaria** y **día de la semana**, con el fin de **minimizar el tiempo de espera hasta recoger un pasajero* del taxista.
 
 ---
 
@@ -20,10 +20,7 @@ Desarrollar un modelo de Machine Learning para recomendar la **mejor zona de rec
 
 ### 🤖 Modelo y Recomendación
 
-* **Modelo:** Regresión (Random Forest / XGBoost) entrenado para predecir el **Revenue Esperado** en función de la Zona, Hora y Día.
-* **Flujo de Recomendación:**
-    1.  Para la hora actual, el modelo predice el **Revenue Esperado** en todas las zonas.
-    2.  Se recomienda al taxista la **Zona con el mayor Revenue Esperado**. 
+* **Modelo:** Regresión (Random Forest / XGBoost) entrenado para predecir la mejor **zona** en función de el día, hora y día de la semana. 
 
 ---
 
