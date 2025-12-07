@@ -12,11 +12,9 @@ Desarrollar un modelo de Machine Learning para recomendar la **mejor zona de rec
 
 * **Unidad:** Cada fila representa una combinación única de **Zona – Hora – Día**.
 * **Variables de Entrada (Features):**
-    * **Geográfica:** Zona de Recogida (`PULocationID` o `pu_borough`).
     * **Temporal:** Franja Horaria (0-23) y Día de la Semana (1-7), derivadas de `tpep_pickup_datetime`.
 * **Variable Objetivo (Target):**
-    $$\text{Revenue Esperado} = \text{N° de Viajes} \times (\text{Ganancia Media del Viaje})$$
-    (Donde $\text{Ganancia Media} \approx \text{mean}(\text{fare\_amount} + \text{tip\_amount})$)
+    Zona en que se posiciona el taxi para maximizar revenue. pickup_zone.
 
 ---
 
